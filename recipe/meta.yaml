@@ -29,7 +29,6 @@ requirements:
     - gitpython
     - httpretty
     - inflect
-    - cdecimal
     - palettable
     - psutil
     - seaborn
@@ -47,7 +46,6 @@ requirements:
     - gitpython
     - httpretty
     - inflect
-    - cdecimal
     - palettable
     - psutil
     - seaborn
