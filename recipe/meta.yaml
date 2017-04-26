@@ -28,7 +28,7 @@ requirements:
     - gitdb2
     - gitpython
     - inflect
-    - keyring  # [py2k]
+    - keyring
     - palettable
     - psutil
     - seaborn
@@ -45,7 +45,7 @@ requirements:
     - gitdb2
     - gitpython
     - inflect
-    - keyring  # [py2k]
+    - keyring
     - palettable
     - psutil
     - seaborn
