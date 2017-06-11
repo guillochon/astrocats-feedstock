@@ -1,6 +1,6 @@
 {% set name = "astrocats" %}
-{% set version = "0.3.22" %}
-{% set sha256 = "0a7d0fde210d30bb702483426304110669a1b4d0e3c4669dc619d2ce67ed67ac" %}
+{% set version = "0.3.24" %}
+{% set sha256 = "9e8c83bb2f8d9b21c7a39a9503dbc57b75f0cb9b371bca763c432d31f73b5fde" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
