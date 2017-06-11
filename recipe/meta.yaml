@@ -1,6 +1,6 @@
 {% set name = "astrocats" %}
-{% set version = "0.3.20" %}
-{% set sha256 = "569ba944b83e813214f121e0de1af14b38eee7a2e298c47020b2e824e7d08d82" %}
+{% set version = "0.3.22" %}
+{% set sha256 = "0a7d0fde210d30bb702483426304110669a1b4d0e3c4669dc619d2ce67ed67ac" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -28,6 +28,7 @@ requirements:
     - gitdb2
     - gitpython
     - inflect
+    - keyring
     - palettable
     - psutil
     - seaborn
@@ -44,6 +45,7 @@ requirements:
     - gitdb2
     - gitpython
     - inflect
+    - keyring
     - palettable
     - psutil
     - seaborn
