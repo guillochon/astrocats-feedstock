@@ -37,7 +37,7 @@ requirements:
   run:
     - python
     - ads
-    - astropy<3.0
+    - astropy <3.0
     - astroquery
     - beautifulsoup4
     - bokeh
