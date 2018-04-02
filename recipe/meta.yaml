@@ -12,28 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
     - setuptools
-    - ads
-    - astropy <3.0
-    - astroquery
-    - beautifulsoup4
-    - bokeh
-    - future
-    - gitdb2
-    - gitpython
-    - inflect
-    - keyring
-    - palettable
-    - psutil
-    - seaborn
-    - tqdm
-    - tweepy
   run:
     - python
     - ads
