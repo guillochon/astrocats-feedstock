@@ -33,6 +33,7 @@ requirements:
     - palettable
     - psutil
     - seaborn
+    - secretstorage
     - tqdm
   run:
     - python
@@ -49,6 +50,7 @@ requirements:
     - palettable
     - psutil
     - seaborn
+    - secretstorage
     - tqdm
 
 test:
