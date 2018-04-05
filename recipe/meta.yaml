@@ -1,6 +1,6 @@
 {% set name = "astrocats" %}
-{% set version = "0.3.32" %}
-{% set sha256 = "da0979f73f6e04d9c89911d6c6a25a0d39405dca889c32f0f55cf028cc688f99" %}
+{% set version = "0.3.35" %}
+{% set sha256 = "057f4e4bdd49f3f5bafb93fcd750461a53b18b7e884a95107a4fc8713506ef72" %}
 
 package:
   name: {{ name|lower }}
@@ -12,45 +12,38 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
     - ads
     - astropy <3.0
-    - astroquery
     - beautifulsoup4
     - bokeh
     - future
-    - gitdb2
     - gitpython
     - inflect
-    - keyring
     - palettable
     - psutil
     - seaborn
     - tqdm
-    - tweepy
   run:
     - python
     - ads
     - astropy <3.0
-    - astroquery
     - beautifulsoup4
     - bokeh
     - future
-    - gitdb2
     - gitpython
     - inflect
-    - keyring
     - palettable
     - psutil
     - seaborn
     - tqdm
-    - tweepy
 
 test:
   imports:
