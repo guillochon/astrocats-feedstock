@@ -1,6 +1,6 @@
 {% set name = "astrocats" %}
-{% set version = "0.3.34" %}
-{% set sha256 = "b0cbe3d29771190c7dc95cd2ddffda38acb42f6292887e0abf13517532b5a8b0" %}
+{% set version = "0.3.35" %}
+{% set sha256 = "057f4e4bdd49f3f5bafb93fcd750461a53b18b7e884a95107a4fc8713506ef72" %}
 
 package:
   name: {{ name|lower }}
@@ -20,20 +20,26 @@ requirements:
   build:
     - python
     - pip
-    - tqdm
+    - ads
+    - astropy <3.0
+    - beautifulsoup4
+    - bokeh
+    - future
+    - gitpython
+    - inflect
+    - palettable
+    - psutil
     - seaborn
+    - tqdm
   run:
     - python
     - ads
     - astropy <3.0
-    - astroquery
     - beautifulsoup4
     - bokeh
     - future
-    - gitdb2
     - gitpython
     - inflect
-    - keyring
     - palettable
     - psutil
     - seaborn
