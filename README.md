@@ -17,9 +17,7 @@ of that data in human-readable formats
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/astrocats-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/astrocats-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/astrocats-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/astrocats-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/astrocats-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/astrocats-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/astrocats-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/astrocats-feedstock)
 
 Current release info
 ====================
