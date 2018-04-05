@@ -20,6 +20,20 @@ requirements:
   build:
     - python
     - pip
+    - ads
+    - astropy <3.0
+    - astroquery
+    - beautifulsoup4
+    - bokeh
+    - future
+    - gitdb2
+    - gitpython
+    - inflect
+    - keyring
+    - palettable
+    - psutil
+    - seaborn
+    - tqdm
   run:
     - python
     - ads
