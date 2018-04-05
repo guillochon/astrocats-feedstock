@@ -36,7 +36,6 @@ requirements:
     - psutil
     - seaborn
     - tqdm
-    - tweepy
 
 test:
   imports:
