@@ -1,6 +1,6 @@
 {% set name = "astrocats" %}
-{% set version = "0.3.35" %}
-{% set sha256 = "057f4e4bdd49f3f5bafb93fcd750461a53b18b7e884a95107a4fc8713506ef72" %}
+{% set version = "0.3.36" %}
+{% set sha256 = "1ca1785c5081d133ebc809982f08fce795d50c4d60e9289c522f1020a8aca7cd" %}
 
 package:
   name: {{ name|lower }}
