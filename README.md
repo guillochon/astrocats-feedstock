@@ -17,12 +17,15 @@ of that data in human-readable formats
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/astrocats-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/astrocats-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/astrocats-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/astrocats-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/astrocats/badges/version.svg)](https://anaconda.org/conda-forge/astrocats)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/astrocats/badges/downloads.svg)](https://anaconda.org/conda-forge/astrocats)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-astrocats-green.svg)](https://anaconda.org/conda-forge/astrocats) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/astrocats.svg)](https://anaconda.org/conda-forge/astrocats) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/astrocats.svg)](https://anaconda.org/conda-forge/astrocats) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/astrocats.svg)](https://anaconda.org/conda-forge/astrocats) |
 
 Installing astrocats
 ====================
